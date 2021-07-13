@@ -1,0 +1,77 @@
+@import url(reset.css);
+
+/* Typography */
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+	padding: 10px;
+}
+
+.icons-social a {
+	color: #FAFAFA;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+	background: #2183d982;
+	color: #FAFAFA;
+}
+
+main > .intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+main > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+#video_background {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -10;
+}
+
